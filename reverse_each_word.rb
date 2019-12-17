@@ -13,7 +13,7 @@ def reverse_each_word(mySentence)
   splitMyArray = mySentence.split(" ") 
   reversedSentence = []
   splitMyArray.collect do|mySentence| 
-    reversedSentence.mySentence.reverse 
+    reversedSentence << mySentence.reverse 
   end
   reversedSentence.join(" ")
 end
