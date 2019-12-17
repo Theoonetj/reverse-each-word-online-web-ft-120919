@@ -1,4 +1,12 @@
 
+def reverse_each_word_with_each(mySentence)
+  splitMyArray = mySentence.split(" ")
+  reversedSentence = []
+  splitMyArray.each do|mySentence|
+    reversedSentence.mySentence.reverse
+  end
+  reversedSentence.join(" ")
+end
 
 
 def reverse_each_word(mySentence)
@@ -6,18 +14,6 @@ def reverse_each_word(mySentence)
   reversedSentence = []
   splitMyArray.collect do|mySentence| 
     reversedSentence.mySentence.reverse 
-  end
-  reversedSentence.join(" ")
-end
-
-
-
-
-def reverse_each_word_with_each(mySentence)
-  splitMyArray = mySentence.split(" ")
-  reversedSentence = []
-  splitMyArray.each do|mySentence|
-    reversedSentence.mySentence.reverse
   end
   reversedSentence.join(" ")
 end
